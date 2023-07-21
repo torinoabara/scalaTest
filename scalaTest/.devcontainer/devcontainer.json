@@ -1,0 +1,14 @@
+{
+    "name":"scalaTest",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "test",
+    "workspaceFolder": "/app/",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"scala-lang.scala",
+				"s-nlf-fh.glassit"
+			]
+		}
+	}
+}

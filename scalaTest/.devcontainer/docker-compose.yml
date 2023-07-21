@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  test:
+    build: 
+      context: ./../scala
+      dockerfile: Dockerfile
+    container_name: "scala_test"
+    volumes: 
+      - ./../app/:/app/
+    command: sleep infinity
